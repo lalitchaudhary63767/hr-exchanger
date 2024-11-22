@@ -1,0 +1,368 @@
+body {
+  background-color: #efefef;
+}
+
+.logo img {
+  text-align: center;
+  width: 300px;
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  margin: 20px 30px;
+}
+
+.search button {
+  float: right;
+  width: 8%;
+  padding: 10px;
+  background: #1e73be;
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background: blue;
+  ;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1e73be;
+  margin-bottom: auto;
+  padding: 12px 10px;
+  height: 50px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropdownbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #1e73be;
+  font-family: inherit;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropdwonbtn {
+  background-color: #1e73be;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1e73be;
+  min-width: 160px;
+  box-shadow: green;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.div {
+  background-color: white;
+}
+
+.div1 {
+  margin: 30px;
+  padding: 50px 20px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 400px;
+  border: 2px seagreen;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.image-container {
+  display: flex;
+  gap: 25px;
+  /* Optional: Adds space between images */
+}
+
+.image-container img {
+  max-width: 250px;
+  /* Optional: Control the size of the images */
+  height: 120px;
+}
+
+.heading {
+  font-size: 3opx;
+  font-style: inherit;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.image {
+  width: 200px;
+  height: 80px;
+  float: left;
+}
+
+.heading2 {
+  float: left;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  display: block;
+
+}
+
+.paragraph2 {
+  font-size: 20px;
+  margin: 30px 30px;
+  color: black;
+  float: left;
+  text-decoration: none;
+
+}
+
+.aboutimg {
+
+  margin: 30px;
+
+}
+
+.div2 {
+  margin: 30px;
+
+  float: left;
+  background-color: white;
+  color: black;
+  font-display: none;
+  font-size: 25px;
+  width: 180px;
+  height: 250px;
+  padding: 30px 20px;
+  display: block;
+
+}
+
+.div3 {
+  margin: 25px;
+  background-color: white;
+  float: left;
+  width: 180px;
+  height: 1opx;
+  padding: 30px 20px;
+  display: block;
+}
+
+.div4 {
+  margin: 20px;
+  background-color: white;
+  float: left;
+  width: 180px;
+  height: 10px;
+  padding: 22px 20px;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  float: inline-start;
+  width: 1300px;
+  height: auto;
+  padding: 1px;
+  background-color: black;
+  float: inline-start;
+  color: white;
+}
+
+.aboutimg {
+  margin: 18px;
+}
+
+.div5 {
+  font-size: 20px;
+  font-style: inherit;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 60px;
+  padding: 30px 20px;
+  margin: 20px 30px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.div6 {
+  margin: 10px 30px;
+  padding: 30px 20px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 450px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+  text-decoration: none;
+}
+
+.heading4 {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.paragraph3 {
+  font-size: 20px;
+}
+
+.div7 {
+  margin: 30px;
+  padding: 30px 20px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 350px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+  text-decoration: none;
+
+}
+
+.div8 {
+  margin:  10px 30px;
+  padding: 30px 20px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 350px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+text-decoration: none;
+}
+
+.div9 {
+  margin: 10px 30px;
+  padding: 30px 20px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 400px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+  text-decoration: none;
+
+}
+
+.div10 {
+  margin: 20px 30px;
+  padding: 20px 30px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 1100px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+  text-decoration: none;
+
+}
+
+.div10 h1 {
+  font-size: 42px;
+  font-style: inherit;
+  text-transform: none;
+
+
+}
+
+.div10 img {
+  width: 750px;
+  height: 500px;
+  padding: 20px 10px;
+}
+
+.div11 {
+  margin: 10px 30px;
+  padding: 30px 20px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 800px;
+  height: 660px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+  text-decoration: none;
+}
+
+.div11 img {
+  vertical-align: middle;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.div11 .paragraph11 {
+  border: 2px solid #efefef;
+  padding: 5px;
+  margin: 20px 30px;
+}
+
+.div12 {
+  margin: 20px 30px;
+  padding: 20px 30px;
+  background-color: white;
+  float: left;
+  color: black;
+  width: 700px;
+  height: 900px;
+  border: 2px white;
+  display: block;
+  unicode-bidi: isolate;
+  text-decoration: none;
+
+}
+
+.div12 .paragraph {
+  padding: 1px;
+  font-size: 15px;
+}
+
+.div12 .heading5 {
+  padding: 1px;
+  font-size: 17px;
+  text-decoration: none;
+}
